@@ -1,0 +1,17 @@
+[build-system]
+requires = [ "setuptools>=61.0",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlflow_launch"
+version = "1.0.7"
+description = "A simple module to launch the MLflow server from Python."
+requires-python = ">=3.6"
+readme = "README.md"
+dependencies = []
+[[project.authors]]
+name = "Jason Conner"
+email = "jason.conner@noaa.gov"
+
+[project.scripts]
+mlflow-launcher = "mlflow_launch.__main__:main"

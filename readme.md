@@ -1,0 +1,1 @@
+Launches mlflow server from Python script or notebook. Defaults are for FT-NIRS MMCNN model tracking.
