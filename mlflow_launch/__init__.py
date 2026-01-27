@@ -9,18 +9,8 @@ from a Python script or Jupyter Notebook.
 import os
 import pathlib
 
-
-def _load_version():
-    root = pathlib.Path(__file__).resolve().parent.parent
-    version_file = root / "_version.py"
-    ns = {}
-    with open(version_file) as f:
-        exec(f.read(), ns)
-    return ns["__version__"]
-
-
 __author__ = """Jason Conner"""
 __email__ = "jason.conner@noaa.gov"
-__version__ = _load_version()
+__version__ = "1.0.7"
 
 from .launcher import start_mlflow_server
