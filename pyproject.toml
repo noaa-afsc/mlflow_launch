@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mlflow_launch"
-version = "1.0.7"
+version = "1.1.0"
 description = "A simple module to launch the MLflow server from Python."
 requires-python = ">=3.6"
 readme = "README.md"
@@ -17,7 +17,7 @@ email = "jason.conner@noaa.gov"
 mlflow-launcher = "mlflow_launch.__main__:main"
 
 [tool.bumpversion]
-current_version = "1.0.7"
+current_version = "1.1.0"
 commit = true
 tag = true
 tag_name = "v{new_version}"
