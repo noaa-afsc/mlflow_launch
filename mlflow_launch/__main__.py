@@ -12,12 +12,12 @@ def main():
 
     parser.add_argument(
         "--backend-store-uri",
-        default="sqlite:///J:/JConner/sqlite/mlflow.db",
+        default="sqlite:///G:/My Drive/Projects/FT-NIR Production/model_tracking_db/sqlite//mlflow.db",
         help="The URI for the backend store.",
     )
     parser.add_argument(
         "--default-artifact-root",
-        default="file:///J:/JConner/sqlite/mlruns",
+        default="file:///G:/My Drive/Projects/FT-NIR Production/model_tracking_db/sqlite/mlruns",
         help="The default artifact root for experiments.",
     )
     parser.add_argument(
