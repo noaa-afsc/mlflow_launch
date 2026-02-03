@@ -4,8 +4,8 @@ import subprocess
 
 
 def start_mlflow_server(
-    backend_store_uri="sqlite:///J:/JConner/sqlite/mlflow.db",
-    default_artifact_root="file:///J:/JConner/sqlite/mlruns",
+    backend_store_uri="sqlite:///G:/My Drive/Projects/FT-NIR Production/model_tracking_db/sqlite/mlflow.db",
+    default_artifact_root="file:///G:/My Drive/Projects/FT-NIR Production/model_tracking_db/sqlite/mlruns",
     port=5000,
     host="127.0.0.1",
     env_name="NIR-prod-mlflow",
