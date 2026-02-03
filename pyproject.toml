@@ -32,5 +32,10 @@ filename = "mlflow_launch/__init__.py"
 search = '__version__ = "{current_version}"'
 replace = '__version__ = "{new_version}"'
 
+[[tool.bumpversion.files]]
+filename = "mlflow_launch/_version.py"
+search = '__version__ = "{current_version}"'
+replace = '__version__ = "{new_version}"'
+
 [tool.bumpversion.parts.prerelease]
 values = ["dev", "rc"]
