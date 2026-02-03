@@ -8,6 +8,6 @@ from a Python script or Jupyter Notebook.
 """
 __author__ = """Jason Conner"""
 __email__ = "jason.conner@noaa.gov"
-__version__ = "1.1.2"
+__version__ = "1.1.3"
 
 from .launcher import start_mlflow_server
