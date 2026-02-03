@@ -11,6 +11,6 @@ import pathlib
 
 __author__ = """Jason Conner"""
 __email__ = "jason.conner@noaa.gov"
-__version__ = "1.1.0"
+__version__ = "1.1.1"
 
 from .launcher import start_mlflow_server
